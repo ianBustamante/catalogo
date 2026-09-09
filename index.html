@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Interactivo de Malware</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo Interactivo de Malware</h1>
+        <p>ITVO - Seguridad en Aplicaciones Web</p>
+    </header>
+
+    <!-- Aquí se inyectarán las tarjetas dinámicamente con JS -->
+    <main id="catalogo-grid" class="grid-container"></main>
+
+    <!-- Ventana Modal para mostrar los detalles multimedia -->
+    <div id="modal" class="modal oculto">
+        <div class="modal-content">
+            <span class="close-btn" onclick="cerrarModal()">&times;</span>
+            <h2 id="modal-title">Nombre del Malware</h2>
+            <p class="tipo-badge" id="modal-type">Tipo</p>
+            
+            <div class="multimedia-container">
+                <!-- Imagen -->
+                <img id="modal-img" src="" alt="Imagen del malware">
+                
+                <!-- Descripción -->
+                <p id="modal-desc">Descripción del malware...</p>
+                
+                <!-- Audio (HTML5) -->
+                <div class="audio-section">
+                    <h3>Nota de Audio / Explicación</h3>
+                    <audio id="modal-audio" controls>
+                        <source src="" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+                
+                <!-- Video incrustado de YouTube -->
+                <div class="video-section">
+                    <h3>Documental / Demostración</h3>
+                    <div class="iframe-container">
+                        <iframe id="modal-video" src="" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
