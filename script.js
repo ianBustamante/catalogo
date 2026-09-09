@@ -4,9 +4,9 @@ const malwareData = [
         nombre: "WannaCry",
         tipo: "Ransomware",
         descripcion: "WannaCry es un criptogusano que cifra los archivos del disco duro de los usuarios y exige un pago en Bitcoin para recuperar el acceso. Aprovechó la vulnerabilidad EternalBlue en sistemas Windows.",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Wana_Decrypt0r_screenshot.png/800px-Wana_Decrypt0r_screenshot.png",
+        imagen: "https://asimily.com/wp-content/uploads/2023/08/The-WannaCry-Ransomware-Legacy-Attack-Asimily-png.png",
         audio: "audio/explicacion_wannacry.mp3",
-        video: "https://www.youtube.com/embed/1B1wK-B_sT0"
+        video: "https://youtu.be/aAfuNn2URng"
     },
     {
         id: "iloveyou",
