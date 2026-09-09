@@ -18,6 +18,7 @@ const malwareData = [
         audio: "audio/iloveyou.mp3",
         video: "https://www.youtube.com/embed/5U2zBv0rYVE"
     }
+    ,
     {
         id: "darkcomet",
         nombre: "DarkComet",
@@ -44,7 +45,7 @@ const malwareData = [
         imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Windows_logo_-_2012.svg/800px-Windows_logo_-_2012.svg.png",
         audio: "audio/poweliks.mp3",
         video: "https://www.youtube.com/embed/1B1wK-B_sT0"
-    },
+    }
     // COPIEN Y PEGUEN EL BLOQUE DE ARRIBA PARA AGREGAR MÁS MALWARES
 ];
 
