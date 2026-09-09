@@ -6,8 +6,9 @@ const malwareData = [
         descripcion: "WannaCry es un criptogusano que cifra los archivos del disco duro de los usuarios y exige un pago en Bitcoin para recuperar el acceso. Aprovechó la vulnerabilidad EternalBlue en sistemas Windows.",
         imagen: "https://asimily.com/wp-content/uploads/2023/08/The-WannaCry-Ransomware-Legacy-Attack-Asimily-png.png",
         audio: "audio/explicacion_wannacry.mp3",
-        video: "https://youtu.be/aAfuNn2URng"
+        video: "https://www.youtube.com/embed/aAfuNn2URng?si=d4kXgM5wjU7Nk38B"
     },
+    
     {
         id: "iloveyou",
         nombre: "ILOVEYOU",
