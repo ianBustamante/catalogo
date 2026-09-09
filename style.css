@@ -12,6 +12,12 @@ body {
     color: var(--text-color);
     margin: 0;
     padding: 0;
+
+    background-color: var(--bg-color);
+    background-image: linear-gradient(rgba(13, 17, 23, 0.85), rgba(13, 17, 23, 0.85)), url('https://wallpapers.com/images/hd/digital-rain-matrix-background-ay018d0i1qwjtra7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Hace que el fondo se quede quieto al hacer scroll */
 }
 
 header {
