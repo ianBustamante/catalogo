@@ -17,6 +17,33 @@ const malwareData = [
         imagen: "https://upload.wikimedia.org/wikipedia/en/2/23/Iloveyou_source_code.png",
         audio: "audio/iloveyou.mp3",
         video: "https://www.youtube.com/embed/5U2zBv0rYVE"
+    }
+    {
+        id: "darkcomet",
+        nombre: "DarkComet",
+        tipo: "Control Remoto (RAT)",
+        descripcion: "DarkComet es un Troyano de Acceso Remoto (RAT) que otorga al atacante control total sobre el equipo infectado. Permite espiar por la cámara web, escuchar por el micrófono, registrar pulsaciones de teclado y robar contraseñas de forma silenciosa.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Spyware_software.jpg/800px-Spyware_software.jpg", 
+        audio: "audio/darkcomet.mp3", 
+        video: "https://www.youtube.com/embed/M_hQp0pYnTc"
+    },
+    {
+        id: "mirai",
+        nombre: "Mirai",
+        tipo: "Uso de recursos (Botnet)",
+        descripcion: "Mirai es un malware que infecta dispositivos del 'Internet de las Cosas' (IoT) como cámaras y routers, convirtiéndolos en una red zombi (botnet). En 2016, esta red se usó para lanzar un ataque DDoS masivo que tumbó grandes plataformas de internet.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Mirai_botnet_map.svg/800px-Mirai_botnet_map.svg.png",
+        audio: "audio/mirai.mp3",
+        video: "https://www.youtube.com/embed/xlE7oX8gE9I"
+    },
+    {
+        id: "poweliks",
+        nombre: "Poweliks",
+        tipo: "Ocultamiento (Fileless)",
+        descripcion: "Poweliks es un malware 'sin archivo' (fileless). A diferencia de los virus tradicionales, no guarda archivos en el disco duro, sino que se oculta directamente en el Registro de Windows y se ejecuta en la memoria RAM, volviéndolo casi invisible para muchos antivirus.",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Windows_logo_-_2012.svg/800px-Windows_logo_-_2012.svg.png",
+        audio: "audio/poweliks.mp3",
+        video: "https://www.youtube.com/embed/1B1wK-B_sT0"
     },
     // COPIEN Y PEGUEN EL BLOQUE DE ARRIBA PARA AGREGAR MÁS MALWARES
 ];
