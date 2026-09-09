@@ -134,9 +134,9 @@ function abrirModal(malware) {
     document.getElementById('modal-img').src = malware.imagen;
     document.getElementById('modal-video').src = malware.video;
     
-    // Generar etiquetas (tags) dinámicamente
+
     const tagsContainer = document.getElementById('modal-tags');
-    tagsContainer.innerHTML = ''; // Limpiar etiquetas anteriores
+    tagsContainer.innerHTML = ''; 
     
     malware.caracteristicas.forEach(caracteristica => {
         const span = document.createElement('span');

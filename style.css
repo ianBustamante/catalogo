@@ -17,7 +17,7 @@ body {
     background-image: linear-gradient(rgba(13, 17, 23, 0.85), rgba(13, 17, 23, 0.85)), url('https://wallpapers.com/images/hd/digital-rain-matrix-background-ay018d0i1qwjtra7.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Hace que el fondo se quede quieto al hacer scroll */
+    background-attachment: fixed; 
 }
 
 header {
@@ -38,7 +38,6 @@ h1, h2, h3 { color: #ffffff; }
     margin: auto;
 }
 
-/* Tarjetas */
 .card {
     background-color: var(--card-bg);
     border: 1px solid #30363d;
@@ -57,7 +56,7 @@ h1, h2, h3 { color: #ffffff; }
 .card h3 { margin-top: 0; }
 .card .tipo { color: var(--danger-color); font-weight: bold; }
 
-/* Modal */
+
 .modal {
     position: fixed;
     top: 0; left: 0; width: 100%; height: 100%;
@@ -108,7 +107,7 @@ h1, h2, h3 { color: #ffffff; }
 
 .iframe-container {
     position: relative;
-    padding-bottom: 56.25%; /* Ratio 16:9 para YouTube */
+    padding-bottom: 56.25%; 
     height: 0;
     overflow: hidden;
 }
